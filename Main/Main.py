@@ -297,6 +297,7 @@ def SVM1():
     
     d=float(input("Enter FTI:"))
 
+   
     data=np.array([[a,b,c,d]])
 
     
