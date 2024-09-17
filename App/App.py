@@ -1,7 +1,7 @@
 #Importing the required packages
 import sys
 
-sys.path.insert(0, 'C:/Users/users/Desktop/Project/Main')
+sys.path.insert(0, 'C:/Users/user/Desktop/Project/Main')
 
 import Main
 
