@@ -9,7 +9,7 @@ import Main
 class test_App:
     
     #Calling Picke Files
-    Main.intro()
+    #Main.intro()
 
     # Main.Naive_Bayes1()
 
