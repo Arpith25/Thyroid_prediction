@@ -1,7 +1,7 @@
 #Importing the required packages
 import sys
 
-sys.path.insert(0, 'Main/Main.py')
+sys.path.insert(0, 'https://github.com/Arpith25/Thyroid_prediction.git/Main/Main.py')
 
 import Main
 
