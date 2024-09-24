@@ -297,6 +297,10 @@ def SVM1():
     
     d=float(input("Enter FTI:"))
 
+<<<<<<< HEAD
+=======
+   
+>>>>>>> 36faa9a68a31c5013a3921f15370a6d87c3edd13
     data=np.array([[a,b,c,d]])
 
     

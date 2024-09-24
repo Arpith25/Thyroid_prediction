@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 #!/Python26/python
 
 print('Content-type: text/html\r\n\r')
 
+=======
+>>>>>>> 36faa9a68a31c5013a3921f15370a6d87c3edd13
 #Importing the required packages
 import numpy as np
 
