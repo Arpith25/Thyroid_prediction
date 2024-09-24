@@ -5,7 +5,7 @@
 
 #import Main
 
-import github.com/Arpith25/Thyroid_prediction/blob/main/Main/Main.py
+import "github.com/Arpith25/Thyroid_prediction/blob/main/Main/Main.py"
 
 
 class test_App:
