@@ -1,9 +1,11 @@
 #Importing the required packages
-import sys
+#import sys
 
-sys.path.insert(0, 'Main.py')
+#sys.path.insert(0, 'Main.py')
 
-import Main
+#import Main
+
+import from Main/Main.py
 
 
 class test_App:
