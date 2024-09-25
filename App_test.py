@@ -9,7 +9,7 @@
 class test_App:
 
     
-    import "https://github.com/Arpith25/Thyroid_prediction.git/Main/Main.py"
+    from https://github.com/Arpith25/Thyroid_prediction.git/Main import Main.py
     
     #Calling Picke Files
     #Main.intro()
