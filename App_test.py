@@ -3,13 +3,10 @@
 
 #sys.path.insert(0, 'Main.py')
 
-#import Main
+from Main import Main.py
 
 
 class test_App:
-
-    
-    from https://github.com/Arpith25/Thyroid_prediction.git/Main import Main.py
     
     #Calling Picke Files
     #Main.intro()
