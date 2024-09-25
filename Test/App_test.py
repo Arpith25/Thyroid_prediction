@@ -1,9 +1,9 @@
 #Importing the required packages
-#import sys
+import sys
 
-#sys.path.insert(0, 'Main.py')
+sys.path.insert(0, 'C:/Users/Admin/Desktop/Project/Main')
 
-from Main import Main.py
+import Main
 
 
 class test_App:

@@ -1,11 +1,7 @@
 #Importing the required packages
 import sys
 
-<<<<<<< HEAD
 sys.path.insert(0, 'C:/Users/Admin/Desktop/Project/Main')
-=======
-sys.path.insert(0, 'C:/Users/user/Desktop/Project/Main/Main.py')
->>>>>>> 36faa9a68a31c5013a3921f15370a6d87c3edd13
 
 import Main
 
