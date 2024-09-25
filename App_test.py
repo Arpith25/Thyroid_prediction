@@ -5,7 +5,7 @@
 
 #import Main
 
-import Main.py
+import Main
 
 
 class test_App:
