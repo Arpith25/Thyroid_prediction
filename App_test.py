@@ -5,10 +5,11 @@
 
 #import Main
 
-import Main
-
 
 class test_App:
+
+    
+    import Main
     
     #Calling Picke Files
     #Main.intro()
