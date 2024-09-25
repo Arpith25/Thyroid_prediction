@@ -3,7 +3,7 @@
 
 #sys.path.insert(0, 'Main.py')
 
-from Main import Main.py
+from https://github.com/Arpith25/Thyroid_prediction.git/Main import Main.py
 
 
 class test_App:
