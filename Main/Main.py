@@ -767,22 +767,34 @@ class model_call:
         try:
             
             a=float(input("Enter TSH:"))
+
+        except EOFError:
+
+            a = 1.2
+
+        try:
     
             b=float(input("Enter T3:"))
+
+        except EOFError:
+
+            b = 15
+
+        try:
     
             c=float(input("Enter TT4:"))
+
+        except EOFError:
+
+            c = 82
+
+        try:
     
             d=float(input("Enter FTI:"))
 
         except EOFError:
 
-            a = 1.2
-            
-            b = 15
-
-            c = 80
-
-            d = 82
+            d = 80
 
         data=np.array([[a,b,c,d]])
 
