@@ -764,15 +764,15 @@ class model_call:
 
         print("\n")
         
-        a=float(input("Enter TSH:"))
+        #a=float(input("Enter TSH:"))
     
-        b=float(input("Enter T3:"))
+        #b=float(input("Enter T3:"))
     
-        c=float(input("Enter TT4:"))
+        #c=float(input("Enter TT4:"))
     
-        d=float(input("Enter FTI:"))
+        #d=float(input("Enter FTI:"))
 
-        data=np.array([[a,b,c,d]])
+        #data=np.array([[a,b,c,d]])
 
 
         print("\n")
