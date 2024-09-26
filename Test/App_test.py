@@ -3,7 +3,7 @@ import sys
 
 sys.path.insert(0, 'C:/Users/Admin/Desktop/Project/Main')
 
-import Main
+from Main import Random_Forest_Hyp1
 
 
 class test_App:
