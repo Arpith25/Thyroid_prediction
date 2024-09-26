@@ -763,14 +763,26 @@ class model_call:
 
 
         print("\n")
-        
-        a=float(input("Enter TSH:"))
+
+        try:
+            
+            a=float(input("Enter TSH:"))
     
-        b=float(input("Enter T3:"))
+            b=float(input("Enter T3:"))
     
-        c=float(input("Enter TT4:"))
+            c=float(input("Enter TT4:"))
     
-        d=float(input("Enter FTI:"))
+            d=float(input("Enter FTI:"))
+
+        except EOFError:
+
+            a = 1.2
+            
+            b = 15
+
+            c = 80
+
+            d = 82
 
         data=np.array([[a,b,c,d]])
 
