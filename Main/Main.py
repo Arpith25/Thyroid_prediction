@@ -775,13 +775,13 @@ class model_call:
         #data=np.array([[a,b,c,d]])
 
 
-        print("\n")
+        #print("\n")
         
-        pred3=clf13.predict(data)
+        #pred3=clf13.predict(data)
         
-        print("Features:",data)
+        #print("Features:",data)
         
-        print("Prediction:",pred3)
+        #print("Prediction:",pred3)
 
 
     #Accessing the Random Forest alogrithm with undersampling after hyperparameter tuning's pickle files
