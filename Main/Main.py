@@ -3,12 +3,6 @@ import pickle
 
 import numpy as np
 
-import sys
-
-sys.path.insert(0, "Model")
-
-import Model
-
 
 class model_call:
 
@@ -734,7 +728,7 @@ class model_call:
     #Accessing the Random Forest algorithm with oversampling after hyperparameter tuning's pickle files
     def Random_Forest_Hyp1():
         
-        filepath='C:/Users/Admin/Desktop/Model/RFHyperparameter1.pkl'
+        filepath='Model/RFHyperparameter1.pkl'
 
         with open(filepath,'rb') as file13:
 
