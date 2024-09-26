@@ -3,7 +3,7 @@ import sys
 
 sys.path.insert(0, 'C:/Users/Admin/Desktop/Project/Main')
 
-from Main import Random_Forest_Hyp1
+from Main import model_call
 
 
 class test_App:
@@ -35,6 +35,6 @@ class test_App:
 
     # Main.Random_Forest2()
 
-    Main.Random_Forest_Hyp1()
+    model_call.Random_Forest_Hyp1()
 
     # Main.Random_Forest_Hyp2()
