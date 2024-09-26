@@ -728,7 +728,7 @@ class model_call:
     #Accessing the Random Forest algorithm with oversampling after hyperparameter tuning's pickle files
     def Random_Forest_Hyp1():
         
-        filepath='C:/Users/Admin/Desktop/Project/Model/RFHyperparameter1.pkl'
+        filepath='RFHyperparameter1.pkl'
 
         with open(filepath,'rb') as file13:
 
