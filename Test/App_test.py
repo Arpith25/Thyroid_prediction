@@ -1,7 +1,7 @@
 #Importing the required packages
 import sys
 
-sys.path.insert(0, 'C:/Users/Admin/Desktop/Project/Main')
+sys.path.insert(0, 'https://github.com/Arpith25/Thyroid_prediction.git/Main')
 
 from Main import model_call
 
