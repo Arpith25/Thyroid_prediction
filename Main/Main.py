@@ -762,26 +762,26 @@ class model_call:
         print("Prediction:",pred1)
 
 
-        print("\n")
+        # print("\n")
         
-        a=float(input("Enter TSH:"))
+        # a=float(input("Enter TSH:"))
     
-        b=float(input("Enter T3:"))
+        # b=float(input("Enter T3:"))
     
-        c=float(input("Enter TT4:"))
+        # c=float(input("Enter TT4:"))
     
-        d=float(input("Enter FTI:"))
+        # d=float(input("Enter FTI:"))
 
-        data=np.array([[a,b,c,d]])
+        # data=np.array([[a,b,c,d]])
 
 
-        print("\n")
+        # print("\n")
         
-        pred3=clf13.predict(data)
+        # pred3=clf13.predict(data)
         
-        print("Features:",data)
+        # print("Features:",data)
         
-        print("Prediction:",pred3)
+        # print("Prediction:",pred3)
 
 
     #Accessing the Random Forest alogrithm with undersampling after hyperparameter tuning's pickle files
