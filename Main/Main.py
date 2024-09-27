@@ -768,7 +768,7 @@ class model_call:
             
             a=float(input("Enter TSH:"))
 
-        except OSError:      
+        except EOFError:      
             
             a = 1.2
 
@@ -776,7 +776,7 @@ class model_call:
     
             b=float(input("Enter T3:"))
 
-        except OSError:
+        except EOFError:
 
             b = 15
 
@@ -784,7 +784,7 @@ class model_call:
     
             c=float(input("Enter TT4:"))
 
-        except OSError:
+        except EOFError:
 
             c = 82
 
@@ -792,7 +792,7 @@ class model_call:
     
             d=float(input("Enter FTI:"))
 
-        except OSError:
+        except EOFError:
 
             d = 80
 
