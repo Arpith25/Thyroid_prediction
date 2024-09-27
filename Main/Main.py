@@ -764,13 +764,11 @@ class model_call:
 
         print("\n")
 
-        try:
+        # try:
             
-            a=float(input("Enter TSH:"))
+        #     a=float(input("Enter TSH:"))
 
-        except EOFError:
-
-            data=np.array([[1.2, 15, 80, 82]])          
+        # except EOFError:      
             
             # a = 1.2
 
@@ -800,6 +798,8 @@ class model_call:
 
 
         print("\n")
+
+        data=np.array([[1.2, 15, 80, 82]])    
         
         pred3=clf13.predict(data)
         
