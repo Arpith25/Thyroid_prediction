@@ -768,7 +768,7 @@ class model_call:
             
             a=float(input("Enter TSH:"))
 
-        except:      
+        except OSError:      
             
             a = 1.2
 
@@ -776,7 +776,7 @@ class model_call:
     
             b=float(input("Enter T3:"))
 
-        except:
+        except OSError:
 
             b = 15
 
@@ -784,7 +784,7 @@ class model_call:
     
             c=float(input("Enter TT4:"))
 
-        except:
+        except OSError:
 
             c = 82
 
@@ -792,18 +792,18 @@ class model_call:
     
             d=float(input("Enter FTI:"))
 
-        except:
+        except OSError:
 
             d = 80
 
 
         print("\n")
 
-        data=np.array([[a, b, c, d]])    
+        features=np.array([[a, b, c, d]])    
         
-        pred3=clf13.predict(data)
+        pred3=clf13.predict(features)
         
-        print("Features:",data)
+        print("Features:",features)
         
         print("Prediction:",pred3)
 
