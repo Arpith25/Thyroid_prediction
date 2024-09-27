@@ -767,40 +767,22 @@ class model_call:
         try:
             
             a=float(input("Enter TSH:"))
-
-        except EOFError:      
             
-            a = 1.2
-
-        try:
-    
             b=float(input("Enter T3:"))
-
-        except EOFError:
-
-            b = 15
-
-        try:
     
             c=float(input("Enter TT4:"))
-
-        except EOFError:
-
-            c = 82
-
-        try:
     
             d=float(input("Enter FTI:"))
+            
+            features=np.array([[a, b, c, d]])    
+        
 
         except EOFError:
 
-            d = 80
-
-
+            features=np.array([[1.2,15,80,82]])
+        
         print("\n")
 
-        features=np.array([[a, b, c, d]])    
-        
         pred3=clf13.predict(features)
         
         print("Features:",features)
