@@ -763,26 +763,20 @@ class model_call:
 
 
         print("\n")
-
-        try:
             
-            a=float(input("Enter TSH:"))
+        # a=float(input("Enter TSH:"))
             
-            b=float(input("Enter T3:"))
+        # b=float(input("Enter T3:"))
     
-            c=float(input("Enter TT4:"))
+        # c=float(input("Enter TT4:"))
     
-            d=float(input("Enter FTI:"))
+        # d=float(input("Enter FTI:"))
             
-            features=np.array([[a, b, c, d]])    
-        
-
-        except EOFError:
-
-            features=np.array([[1.2,15,80,82]])
         
         print("\n")
 
+        features=np.array([[1.2,15,80,82]])
+        
         pred3=clf13.predict(features)
         
         print("Features:",features)
