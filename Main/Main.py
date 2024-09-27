@@ -764,42 +764,42 @@ class model_call:
 
         print("\n")
 
-        # try:
+        try:
             
-        #     a=float(input("Enter TSH:"))
+            a=float(input("Enter TSH:"))
 
-        # except EOFError:      
+        except EOFError:      
             
-            # a = 1.2
+            a = 1.2
 
-        # try:
+        try:
     
-        #     b=float(input("Enter T3:"))
+            b=float(input("Enter T3:"))
 
-        # except EOFError:
+        except EOFError:
 
-        #     b = 15
+            b = 15
 
-        # try:
+        try:
     
-        #     c=float(input("Enter TT4:"))
+            c=float(input("Enter TT4:"))
 
-        # except EOFError:
+        except EOFError:
 
-        #     c = 82
+            c = 82
 
-        # try:
+        try:
     
-        #     d=float(input("Enter FTI:"))
+            d=float(input("Enter FTI:"))
 
-        # except EOFError:
+        except EOFError:
 
-        #     d = 80
+            d = 80
 
 
         print("\n")
 
-        data=np.array([[1.2, 15, 80, 82]])    
+        data=np.array([[a, b, c, d]])    
         
         pred3=clf13.predict(data)
         
