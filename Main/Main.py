@@ -778,10 +778,11 @@ def Random_Forest_Hyp1():
     features=np.array([[a,b,c,d]])
     
     pred3=clf13.predict(features)
+
+     return pred3
+    # print("Features:",features)
     
-    print("Features:",features)
-    
-    print("Prediction:",pred3)
+    # print("Prediction:",pred3)
 
 
 #Accessing the Random Forest alogrithm with undersampling after hyperparameter tuning's pickle files
