@@ -37,8 +37,8 @@ class test_App:
 
     # Main.Random_Forest2()
 
-    def test_Random_Frest_Hyp1():
-        with patch('builtins.input', side_effect=['Y' or 'N']) :
+    @patch('builtins.input', side_effect=['Y' or 'N'])
+    def test_Random_Frest_Hyp1(self, mock_input):
             Random_Forest_Hyp1()
         #result=model_call.Random_Forest_Hyp1()
 
