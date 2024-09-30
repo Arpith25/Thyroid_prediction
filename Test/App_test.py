@@ -40,7 +40,7 @@ class test_App:
     def test_Random_Forest_Hyp1():
         mock_obj = Mock()
         Main.Random_Forest_Hyp1(mock_obj)
-        mock_obj.assert_called_with(1234, 4)
+        mock_obj.assert_called_with(1.5, 12, 80, 82)
         #result=model_call.Random_Forest_Hyp1()
 
     # Main.Random_Forest_Hyp2()
