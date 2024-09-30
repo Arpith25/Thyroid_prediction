@@ -5,7 +5,7 @@ import sys
 
 sys.path.insert(0, 'Main')
 
-import Main
+from Main import Random_Forest_Hyp1
 
 
 class test_App:
