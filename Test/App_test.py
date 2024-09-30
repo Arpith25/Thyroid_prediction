@@ -1,6 +1,6 @@
 #Importing the required packages
 import unittest
-from unittest.mock import patch
+from unittest.mock import Mock
 import sys
 
 sys.path.insert(0, 'Main')
@@ -37,10 +37,10 @@ class test_App:
 
     # Main.Random_Forest2()
 
-    @patch('Main.Random_Forest_Hyp1', side_effect=['Y' or 'N'])
-    def test_Random_Forest_Hyp1(self, mock_input):
-            result = Random_Forest_Hyp1()
-            self.assertEqual(result, "Y" or "N")
+    def test_Random_Forest_Hyp1():
+        mock_obj = Mock()
+        Random_Forest_Hyp1(mock_obj)
+        mock_obj.assert_called_with(1234, 4)
         #result=model_call.Random_Forest_Hyp1()
 
     # Main.Random_Forest_Hyp2()
