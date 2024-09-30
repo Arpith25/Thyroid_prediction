@@ -38,7 +38,7 @@ class test_App:
     # Main.Random_Forest2()
 
     def test_Random_Frest_Hyp1():
-        with patch('builtins.input', side_effect=[1.5,1.2,80,82]) as mock_RFH1:
+        with patch('builtins.input', side_effect=[1.5,1.2,80,82]):
             self.assertEqual(Random_Forest_Hyp1(), "N")
         #result=model_call.Random_Forest_Hyp1()
 
