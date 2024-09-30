@@ -783,8 +783,6 @@ class model_call:
         
         print("Prediction:",pred3)
 
-        return pred3
-
 
     #Accessing the Random Forest alogrithm with undersampling after hyperparameter tuning's pickle files
     def Random_Forest_Hyp2():
