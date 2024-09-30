@@ -726,7 +726,7 @@ def Random_Forest2():
 
 
 #Accessing the Random Forest algorithm with oversampling after hyperparameter tuning's pickle files
-def Random_Forest_Hyp1():
+def Random_Forest_Hyp1(mock_obj):
     
     filepath='Model/RFHyperparameter1.pkl'
 
