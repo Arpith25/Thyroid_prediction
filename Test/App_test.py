@@ -5,7 +5,7 @@ import sys
 
 sys.path.insert(0, 'Main')
 
-from Main import Random_Forest_Hyp1
+import Main
 
 
 class test_App:
@@ -39,7 +39,7 @@ class test_App:
 
     def test_Random_Forest_Hyp1():
         mock_obj = Mock()
-        Random_Forest_Hyp1(mock_obj)
+        Main.Random_Forest_Hyp1(mock_obj)
         mock_obj.assert_called_with(1234, 4)
         #result=model_call.Random_Forest_Hyp1()
 
