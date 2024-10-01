@@ -37,6 +37,4 @@ jobs:
       uses: Arpith25/build@v1
       with:
         example_input: 1.5
-        example_input: 12
-        example_input: 80
-        example_input: 82
+        
