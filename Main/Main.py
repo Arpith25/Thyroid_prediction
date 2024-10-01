@@ -795,7 +795,7 @@ def Random_Forest_Hyp1():
         print("Features:",features)
         
         print("Prediction:",pred3)
-    except (UnboundLocalError, AssertionError):
+    except UnboundLocalError:
         print("No values given")
 
 
