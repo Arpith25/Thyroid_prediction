@@ -764,13 +764,21 @@ def Random_Forest_Hyp1():
 
     print("\n")
         
-    a=float(input("Enter TSH:"))
+    #a=float(input("Enter TSH:"))
+
+    a = 15
         
-    b=float(input("Enter T3:"))
+    #b=float(input("Enter T3:"))
 
-    c=float(input("Enter TT4:"))
+    b = 12
 
-    d=float(input("Enter FTI:"))
+    #c=float(input("Enter TT4:"))
+
+    c = 80
+
+    #d=float(input("Enter FTI:"))
+
+    d = 82
         
     
     print("\n")
