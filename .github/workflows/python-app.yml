@@ -34,7 +34,7 @@ jobs:
     - name: Test with pytest
       run: pytest 
     - name: Passing Inputs
-      uses: actions/build@v1
+      uses: Thyroid_prediction/build@v1
       with:
         example_input: 1.5
         
