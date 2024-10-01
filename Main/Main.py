@@ -764,21 +764,25 @@ def Random_Forest_Hyp1():
 
     print("\n")
         
-    a=float(input("Enter TSH:"))
+    try:
+        a=float(input("Enter TSH:"))
+    except EOFError:
+        print("Unable to take input")
 
-    a = 1.5
-        
-    b=float(input("Enter T3:"))
+    try:
+        b=float(input("Enter T3:"))
+    except EOFError:
+        print("Unable to take input")
 
-    b = 12
+    try:
+        c=float(input("Enter TT4:"))
+    except EOFError:
+        print("Unable to take input")
 
-    c=float(input("Enter TT4:"))
-
-    c = 80
-
-    d=float(input("Enter FTI:"))
-
-    d = 82
+    try:
+        d=float(input("Enter FTI:"))
+    except EOFError:
+        print("Unable to take input")
         
     
     print("\n")
