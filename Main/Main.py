@@ -762,27 +762,26 @@ def Random_Forest_Hyp1():
     print("Prediction:",pred1)
 
 
-    # print("\n")
+    print("\n")
         
-    # a=float(input("Enter TSH:"))
+    a=float(input("Enter TSH:"))
         
-    # b=float(input("Enter T3:"))
+    b=float(input("Enter T3:"))
 
-    # c=float(input("Enter TT4:"))
+    c=float(input("Enter TT4:"))
 
-    # d=float(input("Enter FTI:"))
+    d=float(input("Enter FTI:"))
         
     
-    # print("\n")
+    print("\n")
 
-    # features=np.array([[a,b,c,d]])
+    features=np.array([[a,b,c,d]])
     
-    # pred3=clf13.predict(features)
+    pred3=clf13.predict(features)
 
-    # return pred3
-    # print("Features:",features)
+    print("Features:",features)
     
-    # print("Prediction:",pred3)
+    print("Prediction:",pred3)
 
 
 #Accessing the Random Forest alogrithm with undersampling after hyperparameter tuning's pickle files
