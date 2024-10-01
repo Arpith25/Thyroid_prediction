@@ -766,7 +766,7 @@ def Random_Forest_Hyp1():
         
     #a=float(input("Enter TSH:"))
 
-    a = 15
+    a = 1.5
         
     #b=float(input("Enter T3:"))
 
