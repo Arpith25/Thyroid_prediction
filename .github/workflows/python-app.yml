@@ -34,7 +34,7 @@ jobs:
     - name: Test with pytest
       run: pytest 
     - name: Passing Inputs
-      uses: Thyroid_prediction/python-app.yml@v1
+      uses: Arpith_25/Thyroid_prediction/.github/workflows/python-app.yml/build@v1
       with:
         example_input: 1.5
         
