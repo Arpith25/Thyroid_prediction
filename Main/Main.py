@@ -787,13 +787,16 @@ def Random_Forest_Hyp1():
     
     print("\n")
 
-    features=np.array([[a,b,c,d]])
-    
-    pred3=clf13.predict(features)
-
-    print("Features:",features)
-    
-    print("Prediction:",pred3)
+    try:
+        features=np.array([[a,b,c,d]])
+        
+        pred3=clf13.predict(features)
+        
+        print("Features:",features)
+        
+        print("Prediction:",pred3)
+    except UnboundLocalError:
+        print("No values given")
 
 
 #Accessing the Random Forest alogrithm with undersampling after hyperparameter tuning's pickle files
