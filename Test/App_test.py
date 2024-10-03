@@ -35,6 +35,10 @@ class test_App:
 
     # Main.Random_Forest2()
 
-    Main.Random_Forest_Hyp1()
+    def test_function(self):
+
+        Main.input = lambda: [15,1.2,80,82]
+        output = Main.Random_Forest_Hyp1()
+        assert output = 'P'
 
     # Main.Random_Forest_Hyp2()
