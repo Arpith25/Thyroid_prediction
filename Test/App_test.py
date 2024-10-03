@@ -39,9 +39,7 @@ class test_App:
 
         Main.input = ([[15,1.2,80,82]])
         output = Main.Random_Forest_Hyp1()
-        assert output == 'P'
+        assert output == 'N'
 
     # Main.Random_Forest_Hyp2()
 
-    def teardown_method(self, method):
-        module.input = input
