@@ -45,3 +45,6 @@ class test_App:
         assert output == 'P'
 
     # Main.Random_Forest_Hyp2()
+
+    def teardown_method(self, method):
+        module.input = input
