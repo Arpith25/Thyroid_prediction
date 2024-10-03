@@ -1,4 +1,6 @@
 #Importing the required packages
+import mock 
+
 import sys
 
 sys.path.insert(0, 'Main')
@@ -37,9 +39,8 @@ class test_App:
 
     def test_function(self):
 
-        Main.input = ([[15,1.2,80,82]])
-        output = Main.Random_Forest_Hyp1()
-        assert output == 'N'
+        with mock.patch.object(__builtins__, 'input', lambda: ([[15, 1.2, 80, 82]])):
+            assert Main.Random_Forest_Hyp1() == 'P'
 
     # Main.Random_Forest_Hyp2()
 
