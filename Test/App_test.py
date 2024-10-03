@@ -1,6 +1,5 @@
 #Importing the required packages
-import unittest
-from unittest.mock import Mock
+import pytest
 import sys
 
 sys.path.insert(0, 'Main')
