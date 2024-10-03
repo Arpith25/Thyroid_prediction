@@ -37,7 +37,7 @@ class test_App:
 
     # Main.Random_Forest2()
 
-    @pytest.mark.parameterize("a,b,c,d,o",[('15,1.2,80,82','P')])
+    @pytest.mark.parametrize("a,b,c,d,o",[('15,1.2,80,82','P')])
     def test_function(self,a,b,c,d,o):
         assert Main.Random_Forest_Hyp1(a,b,c,d) == o
 
