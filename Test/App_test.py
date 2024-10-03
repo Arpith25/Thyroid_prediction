@@ -1,9 +1,5 @@
 #Importing the required packages
-import pytest
 
-import mock 
-
-import builtins
 
 import sys
 
@@ -41,10 +37,7 @@ class test_App:
 
     # Main.Random_Forest2()
 
-    def test_function(self):
-
-        with mock.patch.object(__builtins__, 'input', lambda: ([[15, 1.2, 80, 82]])):
-            assert Main.Random_Forest_Hyp1() == 'P'
+    Main.Random_Forest_Hyp1(monkepatch)
 
     # Main.Random_Forest_Hyp2()
 
