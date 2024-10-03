@@ -726,9 +726,7 @@ def Random_Forest2():
 
 
 #Accessing the Random Forest algorithm with oversampling after hyperparameter tuning's pickle files
-def Random_Forest_Hyp1(monkeypatch):
-    
-    monkeypatch.setattr('builtins.input', lambda: [15, 1.2, 80, 82])
+def Random_Forest_Hyp1():
     
     filepath='Model/RFHyperparameter1.pkl'
 
