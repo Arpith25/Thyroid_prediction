@@ -726,7 +726,7 @@ def Random_Forest2():
 
 
 #Accessing the Random Forest algorithm with oversampling after hyperparameter tuning's pickle files
-def Random_Forest_Hyp1(monkeypatch):
+def Random_Forest_Hyp1():
     
     filepath='Model/RFHyperparameter1.pkl'
 
@@ -763,8 +763,6 @@ def Random_Forest_Hyp1(monkeypatch):
 
 
     print("\n")
-
-    monkeypatch.setattr('builtins.input', lambda:'([[15,1.2,80,82]])')
         
     a=float(input("Enter TSH:"))
    
@@ -780,8 +778,6 @@ def Random_Forest_Hyp1(monkeypatch):
     features=np.array([[a,b,c,d]])
     
     pred3=clf13.predict(features)
-
-    assert pred3 == 'P'
     
     print("Features:",features)
     
