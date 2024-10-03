@@ -37,6 +37,6 @@ class test_App:
 
     # Main.Random_Forest2()
 
-    Main.Random_Forest_Hyp1()
+    Main.Random_Forest_Hyp1(monkeypatch)
 
     # Main.Random_Forest_Hyp2()
