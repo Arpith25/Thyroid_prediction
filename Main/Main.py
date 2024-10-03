@@ -764,40 +764,25 @@ def Random_Forest_Hyp1():
 
     print("\n")
         
-    try:
-        a=float(input("Enter TSH:"))
-    except EOFError:
-        print("Unable to take input")
-
-    try:
-        b=float(input("Enter T3:"))
-    except EOFError:
-        print("Unable to take input")
-
-    try:
-        c=float(input("Enter TT4:"))
-    except EOFError:
-        print("Unable to take input")
-
-    try:
-        d=float(input("Enter FTI:"))
-    except EOFError:
-        print("Unable to take input")
+    a=float(input("Enter TSH:"))
+   
+    b=float(input("Enter T3:"))
+    
+    c=float(input("Enter TT4:"))
+    
+    d=float(input("Enter FTI:"))
         
     
     print("\n")
 
-    try:
-        features=np.array([[a,b,c,d]])
-        
-        pred3=clf13.predict(features)
-        
-        print("Features:",features)
-        
-        print("Prediction:",pred3)
-    except (UnboundLocalError, AssertionError):
-        print("No values given")
-
+    features=np.array([[a,b,c,d]])
+    
+    pred3=clf13.predict(features)
+    
+    print("Features:",features)
+    
+    print("Prediction:",pred3)
+    
 
 #Accessing the Random Forest alogrithm with undersampling after hyperparameter tuning's pickle files
 def Random_Forest_Hyp2():
